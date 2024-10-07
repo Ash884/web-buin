@@ -1,0 +1,45 @@
+/* Mengatur gaya dasar untuk body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+/* Mengatur container agar konten terpusat */
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Menata pesan cinta */
+.message {
+    font-size: 36px;
+    color: #e63946;
+    margin-bottom: 20px;
+    transition: opacity 1s ease;
+}
+
+/* Menata tombol */
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3fa9ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efek hover pada tombol */
+.btn:hover {
+    background-color: #d62728;
+}
